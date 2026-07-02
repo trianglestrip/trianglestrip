@@ -44,7 +44,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: wakatime
-          options: '{"username":"${{ secrets.WAKATIME_USERNAME }}","layout":"compact","theme":"transparent","bg_color":"00000000","title_color":"24292f","text_color":"656d76","hide_border":true,"hide_title":true,"card_width":817,"border_radius":4.5,"disable_animations":true,"display_format":"time"}'
+          options: '{"username":"93f8e681-f43f-4ad9-bc9b-b2f4049d39f9","layout":"compact","theme":"transparent","bg_color":"00000000","title_color":"24292f","text_color":"656d76","hide_border":true,"hide_title":true,"card_width":817,"border_radius":4.5,"disable_animations":true,"display_format":"time"}'
           path: profile/wakatime.svg
           token: ${{ secrets.WAKATIME_TOKEN }}
 
