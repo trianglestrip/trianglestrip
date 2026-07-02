@@ -19,6 +19,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Prepare output directory
+        run: mkdir -p profile
+
       - name: Generate stats card
         uses: stats-organization/github-readme-stats-action@v2
         with:
@@ -36,19 +39,16 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate streak card
-        uses: DenverCoder1/github-readme-streak-stats@v2
+        uses: DenverCoder1/github-readme-streak-stats@v1.7.0
         with:
           options: user=${{ github.repository_owner }}&theme=radical
           path: profile/streak.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate trophy card
-        uses: Erik-Donath/github-profile-trophy@feature/generate-svg
-        with:
-          username: ${{ github.repository_owner }}
-          output_path: profile/trophy.svg
-          theme: radical
-          token: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          mkdir -p profile
+          curl -fsSL "https://github-profile-trophy-liard-delta.vercel.app/?username=${{ github.repository_owner }}&theme=radical&column=-1&margin-w=8&margin-h=8" -o profile/trophy.svg
 
       - name: Commit cards
         run: |
