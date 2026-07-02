@@ -111,7 +111,7 @@
       </mask>
       
       
-    <text x="25" y="11" class="stat bold" fill="#656d76">WakaTime user profile not public</text>
+    <text x="25" y="11" class="stat bold" fill="#656d76">User doesn't publicly share detailed code statistics</text>
   
     
     </svg>
