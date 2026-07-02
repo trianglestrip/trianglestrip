@@ -1,6 +1,9 @@
-# 复制到其他项目仓库的 .github/workflows/ 目录下使用（不要放在 profile 仓库本身）
-# 1. 在 GitHub 创建 PAT（repo 权限），存为仓库 Secret：API_TOKEN_GITHUB
-# 2. 将 github-username / user-email 改成你的信息
+# 复制到其它项目仓库，例如 MiMo-CodeForMe：
+#   .github/workflows/update-profile-page.yml
+#
+# 前置条件：在目标仓库 Settings → Secrets → Actions 添加
+#   API_TOKEN_GITHUB = 有 repo 权限的 PAT
+#
 # 详见：https://github.com/umutphp/github-action-dynamic-profile-page
 
 name: Update GitHub Profile Page
@@ -17,4 +20,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           github-username: trianglestrip
-          user-email: user@example.com
+          user-email: trianglestrip@gmail.com

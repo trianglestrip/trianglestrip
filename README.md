@@ -38,3 +38,5 @@
 </p>
 
 <!-- START gadpp -->
+- trianglestrip/MiMo-CodeForMe, [LLMContent@2dde604](https://github.com/trianglestrip/MiMo-CodeForMe/commit/2dde604d08cd3f936d5e757b132cf95669f9cdc5)
+- trianglestrip/trianglestrip, [main@d8f2a3c](https://github.com/trianglestrip/trianglestrip/commit/d8f2a3c590dd0fc31811bfe1a079e919d2a62497)
