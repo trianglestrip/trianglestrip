@@ -2,14 +2,21 @@
 
 <div align="center">
 
-<h3>📊 GitHub 统计</h3>
-<img width="495" src="./profile/stats.svg" alt="GitHub 统计" />
+<table>
+  <tr>
+    <td align="center" valign="top">
+      <strong>📊 GitHub 统计</strong><br/>
+      <img src="./profile/stats.svg" alt="GitHub 统计" />
+    </td>
+    <td align="center" valign="top">
+      <strong>💻 常用语言</strong><br/>
+      <img src="./profile/top-langs.svg" alt="常用语言" />
+    </td>
+  </tr>
+</table>
 
-<h3>💻 常用语言</h3>
-<img width="495" src="./profile/top-langs.svg" alt="常用语言" />
-
-<h3>🔥 连续贡献</h3>
-<img width="495" src="./profile/streak.svg" alt="连续贡献" />
+<strong>🔥 连续贡献</strong><br/>
+<img src="./profile/streak.svg" alt="连续贡献" />
 
 </div>
 

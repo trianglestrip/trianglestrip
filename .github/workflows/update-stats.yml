@@ -28,7 +28,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: '{"username":"${{ github.repository_owner }}","show_icons":true,"theme":"radical","include_all_commits":true,"rank_icon":"percentile","locale":"cn","hide_title":true,"card_width":495,"border_radius":4.5,"disable_animations":true,"show":"reviews,prs_merged,prs_merged_percentage,discussions_started,discussions_answered"}'
+          options: '{"username":"${{ github.repository_owner }}","show_icons":true,"theme":"radical","include_all_commits":true,"rank_icon":"percentile","locale":"cn","hide_title":true,"border_radius":4.5,"disable_animations":true,"show":"reviews,prs_merged,prs_merged_percentage,discussions_started,discussions_answered"}'
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -36,14 +36,14 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: '{"username":"${{ github.repository_owner }}","layout":"compact","theme":"radical","langs_count":8,"hide_progress":false,"locale":"cn","hide_title":true,"card_width":495,"border_radius":4.5,"disable_animations":true}'
+          options: '{"username":"${{ github.repository_owner }}","layout":"compact","theme":"radical","langs_count":6,"hide_progress":false,"locale":"cn","hide_title":true,"card_width":350,"border_radius":4.5,"disable_animations":true}'
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate streak card
         uses: DenverCoder1/github-readme-streak-stats@v1.7.0
         with:
-          options: user=${{ github.repository_owner }}&theme=radical&locale=zh_Hans&card_width=495&border_radius=4.5&disable_animations=true
+          options: user=${{ github.repository_owner }}&theme=radical&locale=zh_Hans&card_width=817&border_radius=4.5&disable_animations=true
           path: profile/streak.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
