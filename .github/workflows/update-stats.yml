@@ -28,7 +28,7 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: stats
-          options: username=${{ github.repository_owner }}&show_icons=true&theme=radical&include_all_commits=true&rank_icon=percentile&show=reviews,prs_merged,prs_merged_percentage,discussions_started,discussions_answered
+          options: '{"username":"${{ github.repository_owner }}","show_icons":true,"theme":"radical","include_all_commits":true,"rank_icon":"percentile","locale":"cn","custom_title":"${{ github.repository_owner }} 的 GitHub 统计","show":"reviews,prs_merged,prs_merged_percentage,discussions_started,discussions_answered"}'
           path: profile/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
@@ -36,14 +36,14 @@ jobs:
         uses: stats-organization/github-readme-stats-action@v2
         with:
           card: top-langs
-          options: username=${{ github.repository_owner }}&layout=donut&theme=radical&langs_count=10&hide_progress=false
+          options: '{"username":"${{ github.repository_owner }}","layout":"donut","theme":"radical","langs_count":10,"hide_progress":false,"locale":"cn","custom_title":"常用语言"}'
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Generate streak card
         uses: DenverCoder1/github-readme-streak-stats@v1.7.0
         with:
-          options: user=${{ github.repository_owner }}&theme=radical
+          options: user=${{ github.repository_owner }}&theme=radical&locale=zh_Hans
           path: profile/streak.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 

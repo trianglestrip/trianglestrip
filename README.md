@@ -1,15 +1,15 @@
-## Hi there 👋
+## 你好 👋
 
 <div align="center">
 
-### 📊 GitHub Stats
-![GitHub Stats](./profile/stats.svg)
+### 📊 GitHub 统计
+![GitHub 统计](./profile/stats.svg)
 
-### 💻 Most Used Languages
-![Top Langs](./profile/top-langs.svg)
+### 💻 常用语言
+![常用语言](./profile/top-langs.svg)
 
-### 🔥 Streak
-![GitHub Streak](./profile/streak.svg)
+### 🔥 连续贡献
+![连续贡献](./profile/streak.svg)
 
 </div>
 
