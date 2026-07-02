@@ -18,6 +18,8 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Prepare output directory
         run: mkdir -p profile
@@ -44,11 +46,6 @@ jobs:
           options: user=${{ github.repository_owner }}&theme=radical
           path: profile/streak.svg
           token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Generate trophy card
-        run: |
-          mkdir -p profile
-          curl -fsSL "https://github-profile-trophy-liard-delta.vercel.app/?username=${{ github.repository_owner }}&theme=radical&column=-1&margin-w=8&margin-h=8" -o profile/trophy.svg
 
       - name: Commit cards
         run: |
