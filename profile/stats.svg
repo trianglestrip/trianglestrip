@@ -1,14 +1,14 @@
 
       <svg
         width="467"
-        height="320"
-        viewBox="0 0 467 320"
+        height="290"
+        viewBox="0 0 467 290"
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
         role="img"
         aria-labelledby="descId"
       >
-        <title id="titleId">trianglestrip &#30340; GitHub &#32479;&#35745;, Rank: C+</title>
+        <title id="titleId">trianglestrip &#30340; GitHub &#32479;&#35745;&#25968;&#25454;, Rank: C+</title>
         <desc id="descId">获标星数: 5, 累计提交总数  : 269, 发起的 PR 总数: 0, 合并的 PR 总数: 0, 被合并的 PR 占比: 0.00, 审查的 PR 总数: 0, 提出的 issue 总数: 20, 发起的讨论总数: 4, 回复的讨论总数: 0, 贡献的项目数（去年）: 1</desc>
         <style>
           .header {
@@ -98,7 +98,7 @@
         }
       }
     
-          
+          * { animation-duration: 0s !important; animation-delay: 0s !important; }
         </style>
 
         
@@ -116,24 +116,10 @@
         />
 
         
-      <g
-        data-testid="card-title"
-        transform="translate(25, 35)"
-      >
-        <g transform="translate(0, 0)">
-      <text
-        x="0"
-        y="0"
-        class="header"
-        data-testid="header"
-      >trianglestrip &#30340; GitHub &#32479;&#35745;</text>
-    </g>
-      </g>
-    
 
         <g
           data-testid="main-card-body"
-          transform="translate(0, 55)"
+          transform="translate(0, 25)"
         >
           
     <g data-testid="rank-circle"
