@@ -2,14 +2,14 @@
 
 <div align="center">
 
-### 📊 GitHub 统计
-![GitHub 统计](./profile/stats.svg)
+<h3>📊 GitHub 统计</h3>
+<img width="495" src="./profile/stats.svg" alt="GitHub 统计" />
 
-### 💻 常用语言
-![常用语言](./profile/top-langs.svg)
+<h3>💻 常用语言</h3>
+<img width="495" src="./profile/top-langs.svg" alt="常用语言" />
 
-### 🔥 连续贡献
-![连续贡献](./profile/streak.svg)
+<h3>🔥 连续贡献</h3>
+<img width="495" src="./profile/streak.svg" alt="连续贡献" />
 
 </div>
 
