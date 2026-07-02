@@ -1,5 +1,3 @@
-## 你好 👋
-
 <div align="center">
 
 <table>
@@ -19,15 +17,3 @@
 <img src="./profile/streak.svg" alt="连续贡献" />
 
 </div>
-
-### 关于我
-
-- 🔭 目前正在做 …
-- 🌱 正在学习 …
-- 💬 欢迎交流 …
-
-### 联系我
-
-- GitHub：[@trianglestrip](https://github.com/trianglestrip)
-
-> 统计卡片采用 GitHub 白/灰/黑配色与透明背景，适配浅色 / 深色主题；数据由 Actions 每日自动更新。
