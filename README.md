@@ -20,4 +20,14 @@
 
 </div>
 
-> 统计卡片由 GitHub Actions 每日自动更新，不依赖第三方在线 API，加载更稳定。
+### 关于我
+
+- 🔭 目前正在做 …
+- 🌱 正在学习 …
+- 💬 欢迎交流 …
+
+### 联系我
+
+- GitHub：[@trianglestrip](https://github.com/trianglestrip)
+
+> 统计卡片使用透明背景，适配 GitHub 浅色 / 深色主题；数据由 Actions 每日自动更新。
