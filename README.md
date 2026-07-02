@@ -30,4 +30,4 @@
 
 - GitHub：[@trianglestrip](https://github.com/trianglestrip)
 
-> 统计卡片使用透明背景，适配 GitHub 浅色 / 深色主题；数据由 Actions 每日自动更新。
+> 统计卡片为透明背景 + 高饱和配色，适配 GitHub 浅色 / 深色主题；数据由 Actions 每日自动更新。
