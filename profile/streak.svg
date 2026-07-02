@@ -40,14 +40,14 @@
                 <!-- Total Contributions label -->
                 <g transform='translate(82.5, 84)'>
                     <text x='0' y='32' stroke-width='0' text-anchor='middle' fill='#FE428E' stroke='none' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='400' font-size='14px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 0.7s'>
-                        Total Contributions
+                        合计贡献
                     </text>
                 </g>
 
                 <!-- Total Contributions range -->
                 <g transform='translate(82.5, 114)'>
                     <text x='0' y='32' stroke-width='0' text-anchor='middle' fill='#A9FEF7' stroke='none' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='400' font-size='12px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 0.8s'>
-                        Aug 26, 2015 - Present
+                        2015年8月26日 - 至今
                     </text>
                 </g>
             </g>
@@ -55,14 +55,14 @@
                 <!-- Current Streak label -->
                 <g transform='translate(247.5, 108)'>
                     <text x='0' y='32' stroke-width='0' text-anchor='middle' fill='#F8D847' stroke='none' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='700' font-size='14px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 0.9s'>
-                        Current Streak
+                        目前连续贡献
                     </text>
                 </g>
 
                 <!-- Current Streak range -->
                 <g transform='translate(247.5, 145)'>
                     <text x='0' y='21' stroke-width='0' text-anchor='middle' fill='#A9FEF7' stroke='none' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='400' font-size='12px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 0.9s'>
-                        Jun 10 - Jul 2
+                        6月10日 - 7月2日
                     </text>
                 </g>
 
@@ -95,14 +95,14 @@
                 <!-- Longest Streak label -->
                 <g transform='translate(412.5, 84)'>
                     <text x='0' y='32' stroke-width='0' text-anchor='middle' fill='#FE428E' stroke='none' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='400' font-size='14px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 1.3s'>
-                        Longest Streak
+                        最长连续贡献
                     </text>
                 </g>
 
                 <!-- Longest Streak range -->
                 <g transform='translate(412.5, 114)'>
                     <text x='0' y='32' stroke-width='0' text-anchor='middle' fill='#A9FEF7' stroke='none' font-family='"Segoe UI", Ubuntu, sans-serif' font-weight='400' font-size='12px' font-style='normal' style='opacity: 0; animation: fadein 0.5s linear forwards 1.4s'>
-                        Jun 10 - Jul 2
+                        6月10日 - 7月2日
                     </text>
                 </g>
             </g>
