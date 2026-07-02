@@ -40,12 +40,13 @@ jobs:
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Generate streak card
-        uses: DenverCoder1/github-readme-streak-stats@v1.7.0
+      - name: Generate WakaTime card
+        uses: stats-organization/github-readme-stats-action@v2
         with:
-          options: user=${{ github.repository_owner }}&theme=transparent&locale=zh_Hans&hide_border=true&card_width=817&border_radius=4.5&disable_animations=true&background=00000000&fire=656d76&ring=656d76&currStreakNum=24292f&sideNums=24292f&currStreakLabel=656d76&sideLabels=656d76&dates=57606a&stroke=d0d7de
-          path: profile/streak.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+          card: wakatime
+          options: '{"username":"${{ github.repository_owner }}","layout":"compact","theme":"transparent","bg_color":"00000000","title_color":"24292f","text_color":"656d76","hide_border":true,"hide_title":true,"card_width":817,"border_radius":4.5,"disable_animations":true,"display_format":"time"}'
+          path: profile/wakatime.svg
+          token: ${{ secrets.WAKATIME_TOKEN }}
 
       - name: Commit cards
         run: |

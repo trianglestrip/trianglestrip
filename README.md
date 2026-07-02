@@ -13,7 +13,11 @@
   </tr>
 </table>
 
-<strong>🔥 连续贡献</strong><br/>
-<img src="./profile/streak.svg" alt="连续贡献" />
+<strong>⏱️ 最近 7 天编码</strong><br/>
+<img src="./profile/wakatime.svg" alt="WakaTime 统计" />
 
 </div>
+
+### 📝 最近提交
+
+<!-- START gadpp -->

@@ -1,0 +1,20 @@
+# 复制到其他项目仓库的 .github/workflows/ 目录下使用（不要放在 profile 仓库本身）
+# 1. 在 GitHub 创建 PAT（repo 权限），存为仓库 Secret：API_TOKEN_GITHUB
+# 2. 将 github-username / user-email 改成你的信息
+# 详见：https://github.com/umutphp/github-action-dynamic-profile-page
+
+name: Update GitHub Profile Page
+on: [push]
+
+jobs:
+  gadpp_job:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: umutphp/github-action-dynamic-profile-page@v5
+        env:
+          API_TOKEN_GITHUB: ${{ secrets.API_TOKEN_GITHUB }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          github-username: trianglestrip
+          user-email: user@example.com
