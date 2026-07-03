@@ -66,6 +66,10 @@ jobs:
 
           token = os.environ["GITHUB_TOKEN"]
           user = os.environ["USER"]
+          profile_repo = f"{user}/{user}"
+
+          def skip_repo(repo: str) -> bool:
+              return repo == profile_repo
 
           events = gh_get(
               f"https://api.github.com/users/{user}/events/public?per_page=30"
@@ -76,7 +80,7 @@ jobs:
               if event.get("type") != "PushEvent":
                   continue
               repo = event["repo"]["name"]
-              if repo in seen:
+              if repo in seen or skip_repo(repo):
                   continue
               seen.add(repo)
               repos.append(repo)
@@ -85,10 +89,10 @@ jobs:
 
           if len(repos) < 3:
               for item in gh_get(
-                  f"https://api.github.com/users/{user}/repos?sort=pushed&per_page=12"
+                  f"https://api.github.com/users/{user}/repos?sort=pushed&per_page=20"
               ):
                   full_name = item["full_name"]
-                  if full_name in seen:
+                  if full_name in seen or skip_repo(full_name):
                       continue
                   seen.add(full_name)
                   repos.append(full_name)
