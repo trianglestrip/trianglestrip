@@ -14,8 +14,8 @@
 
 <!-- START gadpp -->
 **trianglestrip/MiMo-CodeForMe**
+- build(serve): simplify buildserve and auto-upgrade NodeInstall bun · [f0aa869](https://github.com/trianglestrip/MiMo-CodeForMe/commit/f0aa869956e62e704e606b77711b93219ad8c7dd)
 - merge: upstream MiMo-Code main (d1a4aa0) · [cd40a89](https://github.com/trianglestrip/MiMo-CodeForMe/commit/cd40a8954e6e3f8c6f85781284492622df8ea565)
-- test(memory): make buildPath expectations cross-platform on Windows · [af81aeb](https://github.com/trianglestrip/MiMo-CodeForMe/commit/af81aeb3e03c121309ca0daa6598597b7a3ae0c6)
 
 **trianglestrip/SAG-ForMe**
 - feat: 纳入知识库参考文档并增强 MiMo 代理与检索体验 · [bfe77e9](https://github.com/trianglestrip/SAG-ForMe/commit/bfe77e9d1295f2a9b46ab8fcda06618d2fba931d)
