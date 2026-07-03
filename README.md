@@ -1,29 +1,14 @@
-# trianglestrip
-
-### 开发者 / 图形与全栈
-
-就职于 **ZW**，坐标 **武汉**。关注 OpenGL 与图形编程，在 [blog.opengl.cc](https://blog.opengl.cc) 写些笔记。日常折腾 **MiMo-CodeForMe**，让模型与 Agent 协同进化。
-
-<p align="center">
-  <img src="./media/term-stream.svg" alt="trianglestrip@mimo — codeforme.live" width="800">
-</p>
-
-<p align="center">
-  <img src="./media/term-build.svg" alt="render.pass — deferred pipeline · RTX" width="800">
-</p>
-
-<p align="center">
-  <img src="./media/dev-floor.svg" alt="dev-floor — Wuhan graphics stack" width="800">
-</p>
-
----
-
-**→ [blog.opengl.cc](https://blog.opengl.cc)** · [MiMo-CodeForMe](https://github.com/trianglestrip/MiMo-CodeForMe) · live terminals
-
-[![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/trianglestrip) [![Blog](https://img.shields.io/badge/Blog-opengl.cc-24292f?logo=ghost&logoColor=white)](https://blog.opengl.cc)
-
 ### 最近提交
 
 <!-- START gadpp -->
-- trianglestrip/trianglestrip, [main@54c3ec5](https://github.com/trianglestrip/trianglestrip/commit/54c3ec5f63b7ff4043fe8786fbc0320ccc4cc3b5)
-- trianglestrip/MiMo-CodeForMe, [LLMContent@2dde604](https://github.com/trianglestrip/MiMo-CodeForMe/commit/2dde604d08cd3f936d5e757b132cf95669f9cdc5)
+**trianglestrip/trianglestrip**
+- Theme first terminal panel for MiMo-CodeForMe codeforme.live · [5fcfe08](https://github.com/trianglestrip/trianglestrip/commit/5fcfe086655fc61a9e4f31e866d21da9cc02f8b4)
+- Fix static dalindev-style terminal panels after rebase conflict · [a8e9da3](https://github.com/trianglestrip/trianglestrip/commit/a8e9da3d67f25731c9edfa363e2d62775ac154f7)
+
+**trianglestrip/MiMo-CodeForMe**
+- merge: upstream MiMo-Code main (d1a4aa0) · [cd40a89](https://github.com/trianglestrip/MiMo-CodeForMe/commit/cd40a8954e6e3f8c6f85781284492622df8ea565)
+- test(memory): make buildPath expectations cross-platform on Windows · [af81aeb](https://github.com/trianglestrip/MiMo-CodeForMe/commit/af81aeb3e03c121309ca0daa6598597b7a3ae0c6)
+
+**trianglestrip/SAG-ForMe**
+- feat: 纳入知识库参考文档并增强 MiMo 代理与检索体验 · [bfe77e9](https://github.com/trianglestrip/SAG-ForMe/commit/bfe77e9d1295f2a9b46ab8fcda06618d2fba931d)
+- docs: 重组文档目录并将 knowledge-base 加入 gitignore · [58eb544](https://github.com/trianglestrip/SAG-ForMe/commit/58eb5443a2c2ec9cf51ac66e00388688dd36f3af)

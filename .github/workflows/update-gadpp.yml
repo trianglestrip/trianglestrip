@@ -23,6 +23,7 @@ jobs:
 
       - name: Update recent commits section
         env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USER: ${{ github.repository_owner }}
         run: |
           python3 <<'PY'
@@ -31,6 +32,26 @@ jobs:
           import urllib.request
 
           marker = "<!-- START gadpp -->"
+
+
+          def trunc_msg(message: str, limit: int = 72) -> str:
+              line = message.split("\n")[0].strip()
+              if len(line) <= limit:
+                  return line
+              return line[: limit - 1] + "…"
+
+
+          def gh_get(url: str) -> dict | list:
+              headers = {
+                  "Accept": "application/vnd.github+json",
+                  "User-Agent": "trianglestrip-gadpp",
+                  "Authorization": f"Bearer {token}",
+              }
+              req = urllib.request.Request(url, headers=headers)
+              with urllib.request.urlopen(req, timeout=30) as resp:
+                  return json.load(resp)
+
+
           with open("README.md", encoding="utf-8") as f:
               content = f.read()
 
@@ -43,22 +64,14 @@ jobs:
               tail = rest[rest.index("\n---\n") :]
           head = head.rstrip() + "\n\n" + marker + "\n"
 
-          token = os.environ.get("GH_TOKEN", "")
+          token = os.environ["GITHUB_TOKEN"]
           user = os.environ["USER"]
-          url = f"https://api.github.com/users/{user}/events/public?per_page=30"
-          headers = {
-              "Accept": "application/vnd.github+json",
-              "User-Agent": "trianglestrip-gadpp",
-          }
-          if token:
-              headers["Authorization"] = f"Bearer {token}"
 
-          req = urllib.request.Request(url, headers=headers)
-          with urllib.request.urlopen(req) as resp:
-              events = json.load(resp)
-
-          lines = []
-          seen = set()
+          events = gh_get(
+              f"https://api.github.com/users/{user}/events/public?per_page=30"
+          )
+          repos: list[str] = []
+          seen: set[str] = set()
           for event in events:
               if event.get("type") != "PushEvent":
                   continue
@@ -66,14 +79,38 @@ jobs:
               if repo in seen:
                   continue
               seen.add(repo)
-              ref = event["payload"]["ref"].replace("refs/heads/", "")
-              sha = event["payload"]["head"]
-              short = sha[:7]
-              lines.append(
-                  f"- {repo}, [{ref}@{short}](https://github.com/{repo}/commit/{sha})"
-              )
-              if len(lines) >= 8:
+              repos.append(repo)
+              if len(repos) >= 3:
                   break
+
+          if len(repos) < 3:
+              for item in gh_get(
+                  f"https://api.github.com/users/{user}/repos?sort=pushed&per_page=12"
+              ):
+                  full_name = item["full_name"]
+                  if full_name in seen:
+                      continue
+                  seen.add(full_name)
+                  repos.append(full_name)
+                  if len(repos) >= 3:
+                      break
+
+          lines: list[str] = []
+          for repo in repos[:3]:
+              commits = gh_get(
+                  f"https://api.github.com/repos/{repo}/commits?per_page=2"
+              )
+              lines.append(f"**{repo}**")
+              for commit in commits[:2]:
+                  sha = commit["sha"]
+                  short = sha[:7]
+                  msg = trunc_msg(commit["commit"]["message"])
+                  url = commit["html_url"]
+                  lines.append(f"- {msg} · [{short}]({url})")
+              lines.append("")
+
+          while lines and lines[-1] == "":
+              lines.pop()
 
           new_content = head + "\n".join(lines) + ("\n" if lines else "") + tail
           with open("README.md", "w", encoding="utf-8", newline="\n") as f:
