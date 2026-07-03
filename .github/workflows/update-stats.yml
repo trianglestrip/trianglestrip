@@ -1,4 +1,4 @@
-name: Update profile stats
+name: Update profile media
 
 on:
   schedule:
@@ -8,7 +8,7 @@ on:
     branches:
       - main
     paths-ignore:
-      - "profile/**"
+      - "media/**"
 
 jobs:
   build:
@@ -21,37 +21,16 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Prepare output directory
-        run: mkdir -p profile
+      - name: Generate recent activity terminal SVGs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_USER: ${{ github.repository_owner }}
+        run: python3 .github/scripts/generate-media.py
 
-      - name: Generate stats card
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: stats
-          options: '{"username":"${{ github.repository_owner }}","show_icons":true,"theme":"transparent","bg_color":"00000000","title_color":"24292f","text_color":"656d76","icon_color":"656d76","ring_color":"656d76","include_all_commits":true,"rank_icon":"percentile","locale":"cn","hide_title":true,"hide_border":true,"border_radius":4.5,"disable_animations":true,"show":"reviews,prs_merged,prs_merged_percentage,discussions_started,discussions_answered"}'
-          path: profile/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Generate top languages card
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: top-langs
-          options: '{"username":"${{ github.repository_owner }}","layout":"compact","theme":"transparent","bg_color":"00000000","title_color":"24292f","text_color":"656d76","hide_border":true,"langs_count":6,"hide_progress":false,"locale":"cn","hide_title":true,"card_width":350,"border_radius":4.5,"disable_animations":true}'
-          path: profile/top-langs.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Generate WakaTime card
-        uses: stats-organization/github-readme-stats-action@v2
-        with:
-          card: wakatime
-          options: '{"username":"93f8e681-f43f-4ad9-bc9b-b2f4049d39f9","layout":"compact","theme":"transparent","bg_color":"00000000","title_color":"24292f","text_color":"656d76","hide_border":true,"hide_title":true,"card_width":817,"border_radius":4.5,"disable_animations":true,"display_format":"time"}'
-          path: profile/wakatime.svg
-          token: ${{ secrets.WAKATIME_TOKEN }}
-
-      - name: Commit cards
+      - name: Commit media
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add profile/*.svg
-          git diff --staged --quiet || git commit -m "Update profile stats cards"
+          git add media/*.svg
+          git diff --staged --quiet || git commit -m "Update recent activity terminal media"
           git push

@@ -5,20 +5,20 @@
 就职于 **ZW**，坐标 **武汉**。关注 OpenGL 与图形编程，在 [blog.opengl.cc](https://blog.opengl.cc) 写些笔记。日常写代码、折腾工具链，偶尔把想法落到 GitHub 上。
 
 <p align="center">
-  <img src="./profile/stats.svg" alt="GitHub 统计" width="800">
+  <img src="./media/term-stream.svg" alt="trianglestrip@github — recent pushes" width="800">
 </p>
 
 <p align="center">
-  <img src="./profile/top-langs.svg" alt="常用语言" width="800">
+  <img src="./media/term-build.svg" alt="recent-edits — active languages" width="800">
 </p>
 
 <p align="center">
-  <img src="./profile/wakatime.svg" alt="最近 7 天编码" width="800">
+  <img src="./media/dev-floor.svg" alt="repo-floor — recent edits" width="800">
 </p>
 
 ---
 
-**→ [blog.opengl.cc](https://blog.opengl.cc)** · Wuhan · GitHub Profile Stats
+**→ [blog.opengl.cc](https://blog.opengl.cc)** · Wuhan · live recent code activity
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/trianglestrip) [![Blog](https://img.shields.io/badge/Blog-opengl.cc-24292f?logo=ghost&logoColor=white)](https://blog.opengl.cc)
 
