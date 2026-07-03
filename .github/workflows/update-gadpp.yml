@@ -29,6 +29,7 @@ jobs:
           python3 <<'PY'
           import json
           import os
+          import urllib.error
           import urllib.request
 
           marker = "<!-- START gadpp -->"
@@ -66,10 +67,13 @@ jobs:
 
           token = os.environ["GITHUB_TOKEN"]
           user = os.environ["USER"]
-          profile_repo = f"{user}/{user}"
+          excluded = {
+              f"{user}/{user}",
+              f"{user}/{user}.github.io",
+          }
 
           def skip_repo(repo: str) -> bool:
-              return repo == profile_repo
+              return repo in excluded
 
           events = gh_get(
               f"https://api.github.com/users/{user}/events/public?per_page=30"
@@ -101,9 +105,16 @@ jobs:
 
           lines: list[str] = []
           for repo in repos[:3]:
-              commits = gh_get(
-                  f"https://api.github.com/repos/{repo}/commits?per_page=2"
-              )
+              try:
+                  commits = gh_get(
+                      f"https://api.github.com/repos/{repo}/commits?per_page=2"
+                  )
+              except urllib.error.HTTPError as err:
+                  if err.code in (409, 404):
+                      continue
+                  raise
+              if not commits:
+                  continue
               lines.append(f"**{repo}**")
               for commit in commits[:2]:
                   sha = commit["sha"]
