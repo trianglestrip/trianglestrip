@@ -2,10 +2,10 @@
 
 ### 开发者 / 图形与全栈
 
-就职于 **ZW**，坐标 **武汉**。关注 OpenGL 与图形编程，在 [blog.opengl.cc](https://blog.opengl.cc) 写些笔记。日常写代码、折腾工具链，偶尔把想法落到 GitHub 上。
+就职于 **ZW**，坐标 **武汉**。关注 OpenGL 与图形编程，在 [blog.opengl.cc](https://blog.opengl.cc) 写些笔记。日常折腾 **MiMo-CodeForMe**，让模型与 Agent 协同进化。
 
 <p align="center">
-  <img src="./media/term-stream.svg" alt="trianglestrip@wuhan — graphics.live" width="800">
+  <img src="./media/term-stream.svg" alt="trianglestrip@mimo — codeforme.live" width="800">
 </p>
 
 <p align="center">
@@ -18,7 +18,7 @@
 
 ---
 
-**→ [blog.opengl.cc](https://blog.opengl.cc)** · OpenGL pipeline · live terminals · Wuhan
+**→ [blog.opengl.cc](https://blog.opengl.cc)** · [MiMo-CodeForMe](https://github.com/trianglestrip/MiMo-CodeForMe) · live terminals
 
 [![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/trianglestrip) [![Blog](https://img.shields.io/badge/Blog-opengl.cc-24292f?logo=ghost&logoColor=white)](https://blog.opengl.cc)
 
