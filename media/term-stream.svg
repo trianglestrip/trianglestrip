@@ -24,18 +24,18 @@
         keyTimes="0.000; 0.200; 0.400; 0.600; 0.800; 1.000"
         calcMode="discrete"
         dur="9s" repeatCount="indefinite"/>
-      <text x="24" y="60"><tspan fill="#4b5563">[01:26:27]</tspan> <tspan fill="#4ade80">git.push</tspan>  · trianglestrip · main · 54c3ec5 · 1 commit(s)</text>
-      <text x="24" y="78"><tspan fill="#4b5563">[01:26:27]</tspan> <tspan fill="#c9d1d9">commit.msg</tspan>  · trianglestrip · 54c3ec5 · Restyle profile README after dalindev layout Co-aut…</text>
-      <text x="24" y="96"><tspan fill="#4b5563">[09:02:21]</tspan> <tspan fill="#4ade80">git.push</tspan>  · trianglestrip · main · 9b03f7d · 1 commit(s)</text>
-      <text x="24" y="114"><tspan fill="#4b5563">[09:02:21]</tspan> <tspan fill="#c9d1d9">commit.msg</tspan>  · trianglestrip · 9b03f7d · Add GADPP recent commits workflow and populate READ…</text>
-      <text x="24" y="132"><tspan fill="#4b5563">[08:36:53]</tspan> <tspan fill="#4ade80">git.push</tspan>  · MiMo-CodeForMe · LLMContent · 2dde604 · 1 commit(s)</text>
-      <text x="24" y="150"><tspan fill="#4b5563">[08:36:53]</tspan> <tspan fill="#c9d1d9">commit.msg</tspan>  · MiMo-CodeForMe · 2dde604 · chore(serve): 移除冗余 run-distWebServer.bat 并补充 CAD 工具…</text>
-      <text x="24" y="168"><tspan fill="#4b5563">[08:32:58]</tspan> <tspan fill="#4ade80">git.push</tspan>  · trianglestrip · main · d8f2a3c · 1 commit(s)</text>
-      <text x="24" y="186"><tspan fill="#4b5563">[08:32:58]</tspan> <tspan fill="#c9d1d9">commit.msg</tspan>  · trianglestrip · d8f2a3c · Replace unsupported style block with inline styles …</text>
-      <text x="24" y="204"><tspan fill="#4b5563">[08:30:01]</tspan> <tspan fill="#4ade80">git.push</tspan>  · trianglestrip · main · d2ad5d9 · 1 commit(s)</text>
-      <text x="24" y="222"><tspan fill="#4b5563">[08:30:01]</tspan> <tspan fill="#c9d1d9">commit.msg</tspan>  · trianglestrip · d2ad5d9 · Unify section title and icon styles in profile READ…</text>
-      <text x="24" y="240"><tspan fill="#4b5563">[08:24:24]</tspan> <tspan fill="#4ade80">git.push</tspan>  · trianglestrip · main · 7b5922e · 1 commit(s)</text>
-      <text x="24" y="258"><tspan fill="#4b5563">[08:24:24]</tspan> <tspan fill="#c9d1d9">commit.msg</tspan>  · trianglestrip · 7b5922e · Fix WakaTime card username to use WakaTime user id …</text>
+      <text x="24" y="60"><tspan fill="#4b5563">[01:52:33]</tspan> <tspan fill="#4ade80">git.push</tspan>  · trianglestrip · main · be9191d · 1 commit(s)</text>
+      <text x="24" y="78"><tspan fill="#4b5563">[01:52:33]</tspan> <tspan fill="#c9d1d9">commit.msg</tspan>  · trianglestrip · be9191d · Show recent code activity in dalindev-style termina…</text>
+      <text x="24" y="96"><tspan fill="#4b5563">[01:26:27]</tspan> <tspan fill="#4ade80">git.push</tspan>  · trianglestrip · main · 54c3ec5 · 1 commit(s)</text>
+      <text x="24" y="114"><tspan fill="#4b5563">[01:26:27]</tspan> <tspan fill="#c9d1d9">commit.msg</tspan>  · trianglestrip · 54c3ec5 · Restyle profile README after dalindev layout Co-aut…</text>
+      <text x="24" y="132"><tspan fill="#4b5563">[09:02:21]</tspan> <tspan fill="#4ade80">git.push</tspan>  · trianglestrip · main · 9b03f7d · 1 commit(s)</text>
+      <text x="24" y="150"><tspan fill="#4b5563">[09:02:21]</tspan> <tspan fill="#c9d1d9">commit.msg</tspan>  · trianglestrip · 9b03f7d · Add GADPP recent commits workflow and populate READ…</text>
+      <text x="24" y="168"><tspan fill="#4b5563">[08:36:53]</tspan> <tspan fill="#4ade80">git.push</tspan>  · MiMo-CodeForMe · LLMContent · 2dde604 · 1 commit(s)</text>
+      <text x="24" y="186"><tspan fill="#4b5563">[08:36:53]</tspan> <tspan fill="#c9d1d9">commit.msg</tspan>  · MiMo-CodeForMe · 2dde604 · chore(serve): 移除冗余 run-distWebServer.bat 并补充 CAD 工具…</text>
+      <text x="24" y="204"><tspan fill="#4b5563">[08:32:58]</tspan> <tspan fill="#4ade80">git.push</tspan>  · trianglestrip · main · d8f2a3c · 1 commit(s)</text>
+      <text x="24" y="222"><tspan fill="#4b5563">[08:32:58]</tspan> <tspan fill="#c9d1d9">commit.msg</tspan>  · trianglestrip · d8f2a3c · Replace unsupported style block with inline styles …</text>
+      <text x="24" y="240"><tspan fill="#4b5563">[08:30:01]</tspan> <tspan fill="#4ade80">git.push</tspan>  · trianglestrip · main · d2ad5d9 · 1 commit(s)</text>
+      <text x="24" y="258"><tspan fill="#4b5563">[08:30:01]</tspan> <tspan fill="#c9d1d9">commit.msg</tspan>  · trianglestrip · d2ad5d9 · Unify section title and icon styles in profile READ…</text>
     </g>
   </g>
 </svg>

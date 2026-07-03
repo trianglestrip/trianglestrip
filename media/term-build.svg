@@ -29,8 +29,8 @@
     <rect x="120" y="79" width="210" height="11" fill="#3178c6" rx="2"><animate attributeName="width" values="202;210;206" dur="6s" repeatCount="indefinite"/></rect>
     <text x="560" y="88"><tspan fill="#c9d1d9" font-weight="700">50.0%</tspan></text>
     <line x1="24" y1="164" x2="776" y2="164" stroke="#21262d"/>
-    <text x="24" y="176" font-size="11" fill="#4b5563">[01:26:27] trianglestrip · 54c3ec5 · Restyle profile README after dalindev layout Co-aut…</text>
-    <text x="24" y="194" font-size="11" fill="#4b5563">[09:02:21] trianglestrip · 9b03f7d · Add GADPP recent commits workflow and populate READ…</text>
-    <text x="24" y="212" font-size="11" fill="#4b5563">[08:36:53] MiMo-CodeForMe · 2dde604 · chore(serve): 移除冗余 run-distWebServer.bat 并补充 CAD 工具…</text>
+    <text x="24" y="176" font-size="11" fill="#4b5563">[01:52:33] trianglestrip · be9191d · Show recent code activity in dalindev-style termina…</text>
+    <text x="24" y="194" font-size="11" fill="#4b5563">[01:26:27] trianglestrip · 54c3ec5 · Restyle profile README after dalindev layout Co-aut…</text>
+    <text x="24" y="212" font-size="11" fill="#4b5563">[09:02:21] trianglestrip · 9b03f7d · Add GADPP recent commits workflow and populate READ…</text>
   </g>
 </svg>
