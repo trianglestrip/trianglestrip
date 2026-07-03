@@ -37,7 +37,10 @@ jobs:
           if marker not in content:
               raise SystemExit("GADPP marker not found in README.md")
 
-          head, _ = content.split(marker, 1)
+          head, rest = content.split(marker, 1)
+          tail = ""
+          if "\n---\n" in rest:
+              tail = rest[rest.index("\n---\n") :]
           head = head.rstrip() + "\n\n" + marker + "\n"
 
           token = os.environ.get("GH_TOKEN", "")
@@ -72,7 +75,7 @@ jobs:
               if len(lines) >= 8:
                   break
 
-          new_content = head + "\n".join(lines) + ("\n" if lines else "")
+          new_content = head + "\n".join(lines) + ("\n" if lines else "") + tail
           with open("README.md", "w", encoding="utf-8", newline="\n") as f:
               f.write(new_content)
           PY

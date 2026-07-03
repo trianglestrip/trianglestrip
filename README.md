@@ -1,41 +1,28 @@
-<table>
-  <tr>
-    <td align="left" valign="top">
-      <p style="font-size:14px;font-weight:600;color:#24292f;margin:0 0 8px;line-height:1.5">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" style="vertical-align:-3px;margin-right:6px" aria-hidden="true">
-          <path fill="none" stroke="#656d76" stroke-width="1.5" stroke-linecap="round" d="M3 13V8M8 13V3M13 13V6"/>
-        </svg>
-        GitHub 统计
-      </p>
-      <img src="./profile/stats.svg" alt="GitHub 统计" />
-    </td>
-    <td align="left" valign="top">
-      <p style="font-size:14px;font-weight:600;color:#24292f;margin:0 0 8px;line-height:1.5">
-        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" style="vertical-align:-3px;margin-right:6px" aria-hidden="true">
-          <path fill="none" stroke="#656d76" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" d="M5 4L2 8l3 4M11 4l3 4-3 4"/>
-        </svg>
-        常用语言
-      </p>
-      <img src="./profile/top-langs.svg" alt="常用语言" />
-    </td>
-  </tr>
-</table>
+# trianglestrip
 
-<p style="font-size:14px;font-weight:600;color:#24292f;margin:0 0 8px;line-height:1.5">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" style="vertical-align:-3px;margin-right:6px" aria-hidden="true">
-    <circle cx="8" cy="8" r="5.5" fill="none" stroke="#656d76" stroke-width="1.5"/>
-    <path fill="none" stroke="#656d76" stroke-width="1.5" stroke-linecap="round" d="M8 5v3l2 1.5"/>
-  </svg>
-  最近 7 天编码
-</p>
-<img src="./profile/wakatime.svg" alt="WakaTime 统计" />
+### 开发者 / 图形与全栈
 
-<p style="font-size:14px;font-weight:600;color:#24292f;margin:0 0 8px;line-height:1.5">
-  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" style="vertical-align:-3px;margin-right:6px" aria-hidden="true">
-    <path fill="none" stroke="#656d76" stroke-width="1.5" stroke-linecap="round" d="M2 4h12M2 8h12M2 12h8"/>
-  </svg>
-  最近提交
+就职于 **ZW**，坐标 **武汉**。关注 OpenGL 与图形编程，在 [blog.opengl.cc](https://blog.opengl.cc) 写些笔记。日常写代码、折腾工具链，偶尔把想法落到 GitHub 上。
+
+<p align="center">
+  <img src="./profile/stats.svg" alt="GitHub 统计" width="800">
 </p>
+
+<p align="center">
+  <img src="./profile/top-langs.svg" alt="常用语言" width="800">
+</p>
+
+<p align="center">
+  <img src="./profile/wakatime.svg" alt="最近 7 天编码" width="800">
+</p>
+
+---
+
+**→ [blog.opengl.cc](https://blog.opengl.cc)** · Wuhan · GitHub Profile Stats
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)](https://github.com/trianglestrip) [![Blog](https://img.shields.io/badge/Blog-opengl.cc-24292f?logo=ghost&logoColor=white)](https://blog.opengl.cc)
+
+### 最近提交
 
 <!-- START gadpp -->
 - trianglestrip/trianglestrip, [main@9b03f7d](https://github.com/trianglestrip/trianglestrip/commit/9b03f7d5da9de49de5960d460fd9f8959a0eb76f)
