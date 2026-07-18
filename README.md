@@ -14,8 +14,8 @@
 
 <!-- START gadpp -->
 **trianglestrip/MiMo-CodeForMe**
-- 修改CAD Skill的端口和说明 · [30df73b](https://github.com/trianglestrip/MiMo-CodeForMe/commit/30df73bcd200647aa04b9c79eb9ea102ce50015d)
-- 修复：补齐 start.bat/run-built-mimo-serve.bat 中遗漏的 Basic Auth 移除 · [40d0bd8](https://github.com/trianglestrip/MiMo-CodeForMe/commit/40d0bd8cde1b1ba7d793a747c9e8ba2dc94472e9)
+- 修复：刷新技能状态计算 · [70a7a60](https://github.com/trianglestrip/MiMo-CodeForMe/commit/70a7a608ada4197b655d0710575bb81c8bb6a5f8)
+- 修复：使用本地 MiMo 模型配置 · [13d860a](https://github.com/trianglestrip/MiMo-CodeForMe/commit/13d860ad20a2cb0aa50acceb95e878b8cbad65ae)
 
 **trianglestrip/SAG-ForMe**
 - feat: 纳入知识库参考文档并增强 MiMo 代理与检索体验 · [bfe77e9](https://github.com/trianglestrip/SAG-ForMe/commit/bfe77e9d1295f2a9b46ab8fcda06618d2fba931d)
