@@ -14,8 +14,8 @@
 
 <!-- START gadpp -->
 **trianglestrip/MiMo-CodeForMe**
-- 修复：刷新技能状态计算 · [70a7a60](https://github.com/trianglestrip/MiMo-CodeForMe/commit/70a7a608ada4197b655d0710575bb81c8bb6a5f8)
-- 修复：使用本地 MiMo 模型配置 · [13d860a](https://github.com/trianglestrip/MiMo-CodeForMe/commit/13d860ad20a2cb0aa50acceb95e878b8cbad65ae)
+- 清理：移除已删除的 user.json 和 auth.example 复制逻辑 · [b2437f2](https://github.com/trianglestrip/MiMo-CodeForMe/commit/b2437f23d00f83f69d17650624b0d132871ab985)
+- 重构：mimo-config.json 改为空骨架 · [1b3d3b0](https://github.com/trianglestrip/MiMo-CodeForMe/commit/1b3d3b0123ef2de93d0394bb24de2d966ec60a85)
 
 **trianglestrip/SAG-ForMe**
 - feat: 纳入知识库参考文档并增强 MiMo 代理与检索体验 · [bfe77e9](https://github.com/trianglestrip/SAG-ForMe/commit/bfe77e9d1295f2a9b46ab8fcda06618d2fba931d)
