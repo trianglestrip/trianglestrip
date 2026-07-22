@@ -14,8 +14,12 @@
 
 <!-- START gadpp -->
 **trianglestrip/MiMo-CodeForMe**
-- 清理：移除已删除的 user.json 和 auth.example 复制逻辑 · [b2437f2](https://github.com/trianglestrip/MiMo-CodeForMe/commit/b2437f23d00f83f69d17650624b0d132871ab985)
-- 重构：mimo-config.json 改为空骨架 · [1b3d3b0](https://github.com/trianglestrip/MiMo-CodeForMe/commit/1b3d3b0123ef2de93d0394bb24de2d966ec60a85)
+- 修复：会话 prompt/流式端点与 debug-capture 增强 · [eae1aa7](https://github.com/trianglestrip/MiMo-CodeForMe/commit/eae1aa75a8f4f82b522b83908c62555174e0b306)
+- 提交python工具 · [ef68015](https://github.com/trianglestrip/MiMo-CodeForMe/commit/ef680150919b6ddfbf70f01a7ca227c32c4d4991)
+
+**trianglestrip/FalcorRendering**
+- Fix linearZ slope in GBufferRT (#434) · [eb540f6](https://github.com/trianglestrip/FalcorRendering/commit/eb540f6748774680ce0039aaf3ac9279266ec521)
+- Fix rasterization memory leak. (#459) (#461) · [33477f7](https://github.com/trianglestrip/FalcorRendering/commit/33477f758b9282af2fb6e98db555930f395fc6ac)
 
 **trianglestrip/SAG-ForMe**
 - feat: 纳入知识库参考文档并增强 MiMo 代理与检索体验 · [bfe77e9](https://github.com/trianglestrip/SAG-ForMe/commit/bfe77e9d1295f2a9b46ab8fcda06618d2fba931d)
