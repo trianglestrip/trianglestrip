@@ -14,8 +14,8 @@
 
 <!-- START gadpp -->
 **trianglestrip/MiMo-CodeForMe**
-- 修复：会话 prompt/流式端点与 debug-capture 增强 · [eae1aa7](https://github.com/trianglestrip/MiMo-CodeForMe/commit/eae1aa75a8f4f82b522b83908c62555174e0b306)
-- 提交python工具 · [ef68015](https://github.com/trianglestrip/MiMo-CodeForMe/commit/ef680150919b6ddfbf70f01a7ca227c32c4d4991)
+- Revert "移除 --baseline 构建参数（bun 基线包下载失败）" · [675d8c4](https://github.com/trianglestrip/MiMo-CodeForMe/commit/675d8c4dfbfd09c495ac2052c8a997fdc234f18d)
+- 移除 --baseline 构建参数（bun 基线包下载失败） · [988705e](https://github.com/trianglestrip/MiMo-CodeForMe/commit/988705e1be2086321153f6d95d8bbfc4ff947a2f)
 
 **trianglestrip/FalcorRendering**
 - Fix linearZ slope in GBufferRT (#434) · [eb540f6](https://github.com/trianglestrip/FalcorRendering/commit/eb540f6748774680ce0039aaf3ac9279266ec521)
