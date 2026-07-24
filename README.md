@@ -14,8 +14,8 @@
 
 <!-- START gadpp -->
 **trianglestrip/MiMo-CodeForMe**
-- Revert "移除 --baseline 构建参数（bun 基线包下载失败）" · [675d8c4](https://github.com/trianglestrip/MiMo-CodeForMe/commit/675d8c4dfbfd09c495ac2052c8a997fdc234f18d)
-- 移除 --baseline 构建参数（bun 基线包下载失败） · [988705e](https://github.com/trianglestrip/MiMo-CodeForMe/commit/988705e1be2086321153f6d95d8bbfc4ff947a2f)
+- 去掉启动时 health 轮询等待（前端自动检测，bat 不再阻塞） · [72c36e9](https://github.com/trianglestrip/MiMo-CodeForMe/commit/72c36e9377747ae010dcaf5dc289c0e416a9f3c1)
+- health 检测 curl 补 Basic Auth（适配 SERVER_PASSWORD） · [883948c](https://github.com/trianglestrip/MiMo-CodeForMe/commit/883948c2a1fa27938aa98995b6ee8b7896ed2f15)
 
 **trianglestrip/FalcorRendering**
 - Fix linearZ slope in GBufferRT (#434) · [eb540f6](https://github.com/trianglestrip/FalcorRendering/commit/eb540f6748774680ce0039aaf3ac9279266ec521)
