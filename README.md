@@ -14,8 +14,8 @@
 
 <!-- START gadpp -->
 **trianglestrip/MiMo-CodeForMe**
-- 去掉启动时 health 轮询等待（前端自动检测，bat 不再阻塞） · [72c36e9](https://github.com/trianglestrip/MiMo-CodeForMe/commit/72c36e9377747ae010dcaf5dc289c0e416a9f3c1)
-- health 检测 curl 补 Basic Auth（适配 SERVER_PASSWORD） · [883948c](https://github.com/trianglestrip/MiMo-CodeForMe/commit/883948c2a1fa27938aa98995b6ee8b7896ed2f15)
+- 优化 buildserve.bat：bun install --frozen-lockfile 加速 · [86afa09](https://github.com/trianglestrip/MiMo-CodeForMe/commit/86afa0917302f8de05b651ead9b0e1ffc3ac35fc)
+- 移除 models.dev 依赖，mimo-config.json 为唯一 provider 数据源 · [24cd533](https://github.com/trianglestrip/MiMo-CodeForMe/commit/24cd533119012eab333a9ba8b9cbd9aee401735f)
 
 **trianglestrip/FalcorRendering**
 - Fix linearZ slope in GBufferRT (#434) · [eb540f6](https://github.com/trianglestrip/FalcorRendering/commit/eb540f6748774680ce0039aaf3ac9279266ec521)
