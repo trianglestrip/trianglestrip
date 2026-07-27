@@ -14,8 +14,8 @@
 
 <!-- START gadpp -->
 **trianglestrip/MiMo-CodeForMe**
-- 优化 buildserve.bat：bun install --frozen-lockfile 加速 · [86afa09](https://github.com/trianglestrip/MiMo-CodeForMe/commit/86afa0917302f8de05b651ead9b0e1ffc3ac35fc)
-- 移除 models.dev 依赖，mimo-config.json 为唯一 provider 数据源 · [24cd533](https://github.com/trianglestrip/MiMo-CodeForMe/commit/24cd533119012eab333a9ba8b9cbd9aee401735f)
+- 修复：zhipuai-coding-plan baseURL 改为 coding/paas/v4 + 补齐 8 模型 · [fcc00ca](https://github.com/trianglestrip/MiMo-CodeForMe/commit/fcc00cadef67a065ad456ecae78cd2c11416b884)
+- 新增三大平台默认配置模板（xiaomi/deepseek/zhipuai-coding-plan），baseURL 已填，apiKey 留空 · [a950a4f](https://github.com/trianglestrip/MiMo-CodeForMe/commit/a950a4f54b402bb207bb8e8ebf4bd12795e8e68f)
 
 **trianglestrip/FalcorRendering**
 - Fix linearZ slope in GBufferRT (#434) · [eb540f6](https://github.com/trianglestrip/FalcorRendering/commit/eb540f6748774680ce0039aaf3ac9279266ec521)
