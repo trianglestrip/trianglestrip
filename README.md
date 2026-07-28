@@ -14,8 +14,8 @@
 
 <!-- START gadpp -->
 **trianglestrip/MiMo-CodeForMe**
+- 修改离线npm查找问题 · [4d9748c](https://github.com/trianglestrip/MiMo-CodeForMe/commit/4d9748c8a19400ea9d5a87471c59b7fe794307ae)
 - 修复：zhipuai-coding-plan baseURL 改为 coding/paas/v4 + 补齐 8 模型 · [fcc00ca](https://github.com/trianglestrip/MiMo-CodeForMe/commit/fcc00cadef67a065ad456ecae78cd2c11416b884)
-- 新增三大平台默认配置模板（xiaomi/deepseek/zhipuai-coding-plan），baseURL 已填，apiKey 留空 · [a950a4f](https://github.com/trianglestrip/MiMo-CodeForMe/commit/a950a4f54b402bb207bb8e8ebf4bd12795e8e68f)
 
 **trianglestrip/FalcorRendering**
 - Fix linearZ slope in GBufferRT (#434) · [eb540f6](https://github.com/trianglestrip/FalcorRendering/commit/eb540f6748774680ce0039aaf3ac9279266ec521)
