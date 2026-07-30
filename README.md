@@ -14,8 +14,8 @@
 
 <!-- START gadpp -->
 **trianglestrip/MiMo-CodeForMe**
+- 模型元信息增强：deepseek/glm开放variant、contextWindow snapshot、GLM补limit配置 · [6d0abe3](https://github.com/trianglestrip/MiMo-CodeForMe/commit/6d0abe3570e4ef6bcaa97450e4c50b4bfe771409)
 - 修改离线npm查找问题 · [4d9748c](https://github.com/trianglestrip/MiMo-CodeForMe/commit/4d9748c8a19400ea9d5a87471c59b7fe794307ae)
-- 修复：zhipuai-coding-plan baseURL 改为 coding/paas/v4 + 补齐 8 模型 · [fcc00ca](https://github.com/trianglestrip/MiMo-CodeForMe/commit/fcc00cadef67a065ad456ecae78cd2c11416b884)
 
 **trianglestrip/FalcorRendering**
 - Fix linearZ slope in GBufferRT (#434) · [eb540f6](https://github.com/trianglestrip/FalcorRendering/commit/eb540f6748774680ce0039aaf3ac9279266ec521)
