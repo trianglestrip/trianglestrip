@@ -14,8 +14,8 @@
 
 <!-- START gadpp -->
 **trianglestrip/MiMo-CodeForMe**
-- 默认配置：新增 YMX-claude-opus-4-8、YMX-codex-gpt-5.6-sol 两个 provider 模板 · [769eb3d](https://github.com/trianglestrip/MiMo-CodeForMe/commit/769eb3d67a74484867bc55d8df1e20b827405153)
-- 模型元信息增强：deepseek/glm开放variant、contextWindow snapshot、GLM补limit配置 · [6d0abe3](https://github.com/trianglestrip/MiMo-CodeForMe/commit/6d0abe3570e4ef6bcaa97450e4c50b4bfe771409)
+- 更新：合并后 bun.lock 同步上游依赖变更 · [ba00b31](https://github.com/trianglestrip/MiMo-CodeForMe/commit/ba00b31d7d852c03432191c8db85f0f5665c79ff)
+- 合并：同步 upstream/main（345 个新提交）到 LLMContent · [9d91515](https://github.com/trianglestrip/MiMo-CodeForMe/commit/9d915157355b3ebe40339e131b75ffec71a72ec4)
 
 **trianglestrip/FalcorRendering**
 - Fix linearZ slope in GBufferRT (#434) · [eb540f6](https://github.com/trianglestrip/FalcorRendering/commit/eb540f6748774680ce0039aaf3ac9279266ec521)
