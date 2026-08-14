@@ -14,8 +14,8 @@
 
 <!-- START gadpp -->
 **trianglestrip/MiMo-CodeForMe**
-- 修复：非法 agent/command 配置改为跳过并记录，不再中断整体配置加载 · [db28d7b](https://github.com/trianglestrip/MiMo-CodeForMe/commit/db28d7baca58d219af5ed199797fa826d4a79024)
-- 更新：合并后 bun.lock 同步上游依赖变更 · [ba00b31](https://github.com/trianglestrip/MiMo-CodeForMe/commit/ba00b31d7d852c03432191c8db85f0f5665c79ff)
+- fix(build): buildserve.bat 备份恢复运行时 mimo-config.json · [6937665](https://github.com/trianglestrip/MiMo-CodeForMe/commit/6937665f6b156b3bfc0467ac5f2b41169e823699)
+- perf(opencode): skill 目录 namesOnly 瘦身 + skill 状态 10s TTL 缓存 · [9c0385a](https://github.com/trianglestrip/MiMo-CodeForMe/commit/9c0385a74ba0a83a0fa6f733c3c0530c581cd763)
 
 **trianglestrip/FalcorRendering**
 - Fix linearZ slope in GBufferRT (#434) · [eb540f6](https://github.com/trianglestrip/FalcorRendering/commit/eb540f6748774680ce0039aaf3ac9279266ec521)
