@@ -14,8 +14,8 @@
 
 <!-- START gadpp -->
 **trianglestrip/MiMo-CodeForMe**
-- fix(build): buildserve.bat 备份恢复运行时 mimo-config.json · [6937665](https://github.com/trianglestrip/MiMo-CodeForMe/commit/6937665f6b156b3bfc0467ac5f2b41169e823699)
-- perf(opencode): skill 目录 namesOnly 瘦身 + skill 状态 10s TTL 缓存 · [9c0385a](https://github.com/trianglestrip/MiMo-CodeForMe/commit/9c0385a74ba0a83a0fa6f733c3c0530c581cd763)
+- perf(opencode): skill 状态缓存 TTL 10s->60s，修复每步全量重扫 · [bb2a44d](https://github.com/trianglestrip/MiMo-CodeForMe/commit/bb2a44d59c9ce3808bdb1c0978593d48f9ac58b5)
+- feat(opencode): 强制 agent 通过 question 工具向用户提问 · [592d739](https://github.com/trianglestrip/MiMo-CodeForMe/commit/592d7391a2e300492c978e9e41c78fd9614877b4)
 
 **trianglestrip/FalcorRendering**
 - Fix linearZ slope in GBufferRT (#434) · [eb540f6](https://github.com/trianglestrip/FalcorRendering/commit/eb540f6748774680ce0039aaf3ac9279266ec521)
