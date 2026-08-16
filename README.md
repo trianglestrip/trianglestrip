@@ -21,6 +21,6 @@
 - Fix linearZ slope in GBufferRT (#434) · [eb540f6](https://github.com/trianglestrip/FalcorRendering/commit/eb540f6748774680ce0039aaf3ac9279266ec521)
 - Fix rasterization memory leak. (#459) (#461) · [33477f7](https://github.com/trianglestrip/FalcorRendering/commit/33477f758b9282af2fb6e98db555930f395fc6ac)
 
-**trianglestrip/demo**
-- README: remove decompile references, focus on rendering demo · [0a6364d](https://github.com/trianglestrip/demo/commit/0a6364d31ca1775a32fc9cad9ea8551dd30e8c7b)
-- UI: mount material params via mat.uiConfig getter; fix physical materia… · [2674f3b](https://github.com/trianglestrip/demo/commit/2674f3ba4223783cd72b50d658373e7a7044c1f4)
+**trianglestrip/assimp**
+- DXF: add support for POINT entities (#6743) · [bb71401](https://github.com/trianglestrip/assimp/commit/bb7140123a51466c7690dea8723a349816aaf732)
+- bound vertex index when reading normals in q3d importer (#6703) · [fe1965b](https://github.com/trianglestrip/assimp/commit/fe1965b3e73f7c241265e8e5b3015764936a6ce5)
