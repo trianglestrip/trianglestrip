@@ -14,8 +14,8 @@
 
 <!-- START gadpp -->
 **trianglestrip/MiMo-CodeForMe**
-- feat: mimo-config 新增 glm-5.3 与 opencode-go provider · [c7783a3](https://github.com/trianglestrip/MiMo-CodeForMe/commit/c7783a3599ce795f9e65b650fcd64fbff4ff64db)
-- perf(opencode): skill 状态缓存 TTL 10s->60s，修复每步全量重扫 · [bb2a44d](https://github.com/trianglestrip/MiMo-CodeForMe/commit/bb2a44d59c9ce3808bdb1c0978593d48f9ac58b5)
+- test: 验证 pre-push 钩子改用官方 turbo 后推送正常 · [02ab29b](https://github.com/trianglestrip/MiMo-CodeForMe/commit/02ab29bb349df277e2ddfa1dac468e3052d24a10)
+- perf(server): 缓解 mimo 卡顿 - 新增 AVX2 编译脚本、遥测默认关闭、--low 低优先级启动参数 · [4514a10](https://github.com/trianglestrip/MiMo-CodeForMe/commit/4514a107debfce8d1cd8d1c4c5501ece2c283f82)
 
 **trianglestrip/assimp**
 - fix: streaming upload races + overlap buffer creation with parse · [953c555](https://github.com/trianglestrip/assimp/commit/953c555fbf729ad5093e640081aa362ad416e7d0)
