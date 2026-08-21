@@ -14,8 +14,8 @@
 
 <!-- START gadpp -->
 **trianglestrip/MiMo-CodeForMe**
-- test: 验证 pre-push 钩子改用官方 turbo 后推送正常 · [02ab29b](https://github.com/trianglestrip/MiMo-CodeForMe/commit/02ab29bb349df277e2ddfa1dac468e3052d24a10)
-- perf(server): 缓解 mimo 卡顿 - 新增 AVX2 编译脚本、遥测默认关闭、--low 低优先级启动参数 · [4514a10](https://github.com/trianglestrip/MiMo-CodeForMe/commit/4514a107debfce8d1cd8d1c4c5501ece2c283f82)
+- feat(server): 图运行的专家静默完成，不再向父会话注入通知 · [4264fb5](https://github.com/trianglestrip/MiMo-CodeForMe/commit/4264fb53c961d9b936c46471e4a27b5881ba7bd8)
+- fix(server): 专家团运行补会话存在性预检与 wait 超时语义 · [ecf1ddd](https://github.com/trianglestrip/MiMo-CodeForMe/commit/ecf1ddd1d132f49d839c1515b7fd74513c53efbc)
 
 **trianglestrip/assimp**
 - fix: streaming upload races + overlap buffer creation with parse · [953c555](https://github.com/trianglestrip/assimp/commit/953c555fbf729ad5093e640081aa362ad416e7d0)
