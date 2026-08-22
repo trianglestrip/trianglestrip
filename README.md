@@ -13,14 +13,14 @@
 ### 最近提交
 
 <!-- START gadpp -->
-**trianglestrip/MiMo-CodeForMe**
-- feat(server): 图运行的专家静默完成，不再向父会话注入通知 · [4264fb5](https://github.com/trianglestrip/MiMo-CodeForMe/commit/4264fb53c961d9b936c46471e4a27b5881ba7bd8)
-- fix(server): 专家团运行补会话存在性预检与 wait 超时语义 · [ecf1ddd](https://github.com/trianglestrip/MiMo-CodeForMe/commit/ecf1ddd1d132f49d839c1515b7fd74513c53efbc)
-
 **trianglestrip/assimp**
-- fix: streaming upload races + overlap buffer creation with parse · [953c555](https://github.com/trianglestrip/assimp/commit/953c555fbf729ad5093e640081aa362ad416e7d0)
-- perf: stream geometry to GPU during parse (inline copies on parser work… · [c64d78d](https://github.com/trianglestrip/assimp/commit/c64d78d0e68d72ee84219a63ec2a48eb3214425b)
+- assetpack: add PBRT-v4 scene parser (trianglemesh/plymesh, transforms, … · [4b7adcc](https://github.com/trianglestrip/assimp/commit/4b7adcccfc825def6bd645ed27879f95a2ee6dc7)
+- assetpack: add stl/ply/gltf/fbx parsers + cancellation, warnings, textu… · [1158432](https://github.com/trianglestrip/assimp/commit/1158432577d776bc743792fa0ac2fe6384d7183b)
 
-**trianglestrip/FalcorRendering**
-- Fix linearZ slope in GBufferRT (#434) · [eb540f6](https://github.com/trianglestrip/FalcorRendering/commit/eb540f6748774680ce0039aaf3ac9279266ec521)
-- Fix rasterization memory leak. (#459) (#461) · [33477f7](https://github.com/trianglestrip/FalcorRendering/commit/33477f758b9282af2fb6e98db555930f395fc6ac)
+**trianglestrip/pbrt-v4**
+- Fix double-precision interval arithmetic in PBRT_FLOAT_AS_DOUBLE build · [5f7a606](https://github.com/trianglestrip/pbrt-v4/commit/5f7a606806a4ac7b939131ded9d7a30ebd02416e)
+- Merge pull request #545 from jaxvanyang/patch-1 · [0fef7de](https://github.com/trianglestrip/pbrt-v4/commit/0fef7de38db1959a5fb8abef8e62283997e09f4c)
+
+**trianglestrip/MiMo-CodeForMe**
+- chore(storybook): 删除调试日志文件 debug-storybook.log · [b79190f](https://github.com/trianglestrip/MiMo-CodeForMe/commit/b79190f4174cd2ae57743510a86e3e66df68c830)
+- fix(stop): 端口释放改用 PowerShell，规避 netstat 挂死 · [e912ec6](https://github.com/trianglestrip/MiMo-CodeForMe/commit/e912ec67978546ce788dd0f96ed0f7b794160bb3)
