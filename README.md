@@ -14,8 +14,8 @@
 
 <!-- START gadpp -->
 **trianglestrip/assimp**
-- assetpack: add PBRT-v4 scene parser (trianglemesh/plymesh, transforms, … · [4b7adcc](https://github.com/trianglestrip/assimp/commit/4b7adcccfc825def6bd645ed27879f95a2ee6dc7)
-- assetpack: add stl/ply/gltf/fbx parsers + cancellation, warnings, textu… · [1158432](https://github.com/trianglestrip/assimp/commit/1158432577d776bc743792fa0ac2fe6384d7183b)
+- iter4: adaptive texture budget (frameMs feedback) · [51e0d85](https://github.com/trianglestrip/assimp/commit/51e0d85e3dc682b804fa38a45b1de9bbed027aad)
+- iter1: fine-grained timing + remove double openShared in loadOnePly · [d5e4957](https://github.com/trianglestrip/assimp/commit/d5e49578ca5b851296ba990d2243daa32bd93f1a)
 
 **trianglestrip/pbrt-v4**
 - Fix double-precision interval arithmetic in PBRT_FLOAT_AS_DOUBLE build · [5f7a606](https://github.com/trianglestrip/pbrt-v4/commit/5f7a606806a4ac7b939131ded9d7a30ebd02416e)
