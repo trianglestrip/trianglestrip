@@ -13,13 +13,13 @@
 ### 最近提交
 
 <!-- START gadpp -->
+**trianglestrip/MiMo-CodeForMe**
+- perf(prompt): 精简 default.txt，移除冗余架构说明 · [b6c18ac](https://github.com/trianglestrip/MiMo-CodeForMe/commit/b6c18ac1ece2297613f3cc9ad75fe5773139dfb5)
+- merge: 同步上游 main(~194 个提交) · [81fad8e](https://github.com/trianglestrip/MiMo-CodeForMe/commit/81fad8e459d7a021babf51e948dd25d9b08662b8)
+
 **trianglestrip/FalcorRendering**
 - Fix linearZ slope in GBufferRT (#434) · [eb540f6](https://github.com/trianglestrip/FalcorRendering/commit/eb540f6748774680ce0039aaf3ac9279266ec521)
 - Fix rasterization memory leak. (#459) (#461) · [33477f7](https://github.com/trianglestrip/FalcorRendering/commit/33477f758b9282af2fb6e98db555930f395fc6ac)
-
-**trianglestrip/MiMo-CodeForMe**
-- feat(config): 模型目录新增 GLM-5.3 Flash · [f72e1a4](https://github.com/trianglestrip/MiMo-CodeForMe/commit/f72e1a4930ceb60ea4208c58311f5567e709ce87)
-- chore(build): 删除零引用的 buildserve-avx2.bat · [188b507](https://github.com/trianglestrip/MiMo-CodeForMe/commit/188b507b379dce709b18422f264e6b4771804401)
 
 **trianglestrip/pbrt-v4**
 - Fix double-precision interval arithmetic in PBRT_FLOAT_AS_DOUBLE build · [5f7a606](https://github.com/trianglestrip/pbrt-v4/commit/5f7a606806a4ac7b939131ded9d7a30ebd02416e)
