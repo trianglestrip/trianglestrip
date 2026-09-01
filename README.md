@@ -14,8 +14,8 @@
 
 <!-- START gadpp -->
 **trianglestrip/MiMo-CodeForMe**
+- prompt: 更新default.txt提示词，新增小博身份定位、专业客观性及安全边界 · [4093fe9](https://github.com/trianglestrip/MiMo-CodeForMe/commit/4093fe9da6b41099b7da9b29c24332021788d28d)
 - perf(prompt): 精简 default.txt，移除冗余架构说明 · [b6c18ac](https://github.com/trianglestrip/MiMo-CodeForMe/commit/b6c18ac1ece2297613f3cc9ad75fe5773139dfb5)
-- merge: 同步上游 main(~194 个提交) · [81fad8e](https://github.com/trianglestrip/MiMo-CodeForMe/commit/81fad8e459d7a021babf51e948dd25d9b08662b8)
 
 **trianglestrip/FalcorRendering**
 - Fix linearZ slope in GBufferRT (#434) · [eb540f6](https://github.com/trianglestrip/FalcorRendering/commit/eb540f6748774680ce0039aaf3ac9279266ec521)
