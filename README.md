@@ -14,8 +14,8 @@
 
 <!-- START gadpp -->
 **trianglestrip/MiMo-CodeForMe**
-- feat(metrics): TTFT观测体系——first-token分段日志(promptToStreamMs/streamToFirst… · [d209978](https://github.com/trianglestrip/MiMo-CodeForMe/commit/d209978e7f892047c2c5b6662b1b81ef43b2f11f)
-- prompt: 全部会话提示词统一小博完整人设与三段工程规范——9 个路由文件（glm/deepseek/kimi/gemini/minima… · [f112e6d](https://github.com/trianglestrip/MiMo-CodeForMe/commit/f112e6dbff0e022d0e822fcd6e4b3cb06174f348)
+- perf(compaction): 压缩请求字节复用主对话冻结前缀(dsh 前缀稳定性纪律) · [8b2182c](https://github.com/trianglestrip/MiMo-CodeForMe/commit/8b2182cf33780759d207d8b3ecbaf6a458083c33)
+- fix(provider): vendored OpenAI-compatible 序列化对齐 dsh 前缀稳定纪律——assistant 空… · [41407c2](https://github.com/trianglestrip/MiMo-CodeForMe/commit/41407c2a7526a6ad3ce776ffa5dfca813772fb50)
 
 **trianglestrip/FalcorRendering**
 - Fix linearZ slope in GBufferRT (#434) · [eb540f6](https://github.com/trianglestrip/FalcorRendering/commit/eb540f6748774680ce0039aaf3ac9279266ec521)
