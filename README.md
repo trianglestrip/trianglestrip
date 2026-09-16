@@ -14,8 +14,8 @@
 
 <!-- START gadpp -->
 **trianglestrip/deepseek-harness**
-- Merge pull request #3713 from deepseek-harness/fix/workspace-browser-ra… · [c389f96](https://github.com/trianglestrip/deepseek-harness/commit/c389f96bf3a9b6807cb71ed6bdad5849be0df6d8)
-- test(web): await seeded workspace membership before selection · [e73906d](https://github.com/trianglestrip/deepseek-harness/commit/e73906d06f1b62675fd6810d4397ae47217dd51f)
+- Merge pull request #4192 from deepseek-harness/worktree-bootfast2 · [0d1f500](https://github.com/trianglestrip/deepseek-harness/commit/0d1f50007f9bca3f52b06e1c3074fa14d5fb0720)
+- perf(typert): materialize generated schemas on first use · [e459e32](https://github.com/trianglestrip/deepseek-harness/commit/e459e3263733075bd806d9ba6dd92bbc4bf3983f)
 
 **trianglestrip/blender-mcp**
 - Document flow analysis: step-by-step conventions live in prompts, not s… · [6d98167](https://github.com/trianglestrip/blender-mcp/commit/6d98167cd93a884d104d55a1a0bef091b27c9f8b)
