@@ -13,14 +13,13 @@
 ### 最近提交
 
 <!-- START gadpp -->
-**trianglestrip/dsh-xb-plugins**
-- docs(dev): present the agent preset as the additive local route, with n… · [ae6e369](https://github.com/trianglestrip/dsh-xb-plugins/commit/ae6e369b022a21c3192393e867bf54ddb6614cb9)
-- feat(dev): project the prompt onto a Desktop agent preset, so local use… · [b6771c8](https://github.com/trianglestrip/dsh-xb-plugins/commit/b6771c89a65a69c9975fda49c829aa0db5495b84)
-
 **trianglestrip/deepseek-harness**
-- Merge pull request #4192 from deepseek-harness/worktree-bootfast2 · [0d1f500](https://github.com/trianglestrip/deepseek-harness/commit/0d1f50007f9bca3f52b06e1c3074fa14d5fb0720)
-- perf(typert): materialize generated schemas on first use · [e459e32](https://github.com/trianglestrip/deepseek-harness/commit/e459e3263733075bd806d9ba6dd92bbc4bf3983f)
+- Merge pull request #4469 from deepseek-harness/worktree/release-dsh-0.1… · [ddefc45](https://github.com/trianglestrip/deepseek-harness/commit/ddefc45fbc7f8e46dd73185e68295696d1297887)
+- release(dsh): 0.1.6-alpha.2 · [6b1808f](https://github.com/trianglestrip/deepseek-harness/commit/6b1808f432adfa96ab6c2f033e158ca230422e16)
 
-**trianglestrip/blender-mcp**
-- Document flow analysis: step-by-step conventions live in prompts, not s… · [6d98167](https://github.com/trianglestrip/blender-mcp/commit/6d98167cd93a884d104d55a1a0bef091b27c9f8b)
-- docs: add AGENTS.md workflow guide and project docs · [1b32129](https://github.com/trianglestrip/blender-mcp/commit/1b3212992365b13e59bcb2cd51c8cafb7460e072)
+**trianglestrip/dsh-xb-plugins**
+- docs: spec the four remaining desktop tasks · [ddfd998](https://github.com/trianglestrip/dsh-xb-plugins/commit/ddfd998829edfbba9876b7722fdf461818388c08)
+- feat(dev): one verification pass and a build runbook · [416f2a5](https://github.com/trianglestrip/dsh-xb-plugins/commit/416f2a53d5632cc0eb014e47de7b6ed9adc60d3e)
+
+**trianglestrip/arrowgame**
+- 重构为 TypeScript 模块化项目：数值系统/资源/系统层解耦 · [b929935](https://github.com/trianglestrip/arrowgame/commit/b92993551df4c7fe70283183a866f2ec6e85c434)
