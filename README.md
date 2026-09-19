@@ -21,5 +21,6 @@
 - docs: spec the four remaining desktop tasks · [ddfd998](https://github.com/trianglestrip/dsh-xb-plugins/commit/ddfd998829edfbba9876b7722fdf461818388c08)
 - feat(dev): one verification pass and a build runbook · [416f2a5](https://github.com/trianglestrip/dsh-xb-plugins/commit/416f2a53d5632cc0eb014e47de7b6ed9adc60d3e)
 
-**trianglestrip/arrowgame**
-- 重构为 TypeScript 模块化项目：数值系统/资源/系统层解耦 · [b929935](https://github.com/trianglestrip/arrowgame/commit/b92993551df4c7fe70283183a866f2ec6e85c434)
+**trianglestrip/blender-mcp**
+- Document flow analysis: step-by-step conventions live in prompts, not s… · [6d98167](https://github.com/trianglestrip/blender-mcp/commit/6d98167cd93a884d104d55a1a0bef091b27c9f8b)
+- docs: add AGENTS.md workflow guide and project docs · [1b32129](https://github.com/trianglestrip/blender-mcp/commit/1b3212992365b13e59bcb2cd51c8cafb7460e072)
