@@ -14,8 +14,8 @@
 
 <!-- START gadpp -->
 **xoyofan/zishu_flutter**
+- feat(windows): Alt+方向键系统级兜底通道与跨平台分类显示域 · [e0ee05d](https://github.com/xoyofan/zishu_flutter/commit/e0ee05d06e10c31f5a80de441418477ebdd351fc)
 - 文档:README 说明补充支持平台清单与语音字幕/自动翻译特色 · [eece84a](https://github.com/xoyofan/zishu_flutter/commit/eece84a71fdbdcad9554b9e1beec2f4fa9abaa99)
-- 文档:README 补充平台/功能进度盘点与 Windows 首页、播放页截图 · [5f64481](https://github.com/xoyofan/zishu_flutter/commit/5f64481baa67c0796bdca47a03516467475cc239)
 
 **trianglestrip/tidewater**
 - Faster startup (no blocking pipeline compiles) + Chinese localization · [2b89a44](https://github.com/trianglestrip/tidewater/commit/2b89a44103c31a03ebed58f847c078758e52f576)
